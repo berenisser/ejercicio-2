@@ -231,5 +231,5 @@ var clientes = [
   }
 ];
 clientes.forEach(function(elem){
-  document.write("<u>Nombre:</u> <b>"+ elem.name + "</b>"+ "<br>"+"<u>Dirección:</u> "+elem.address.street +", "+ elem.address.suite +"<br>"+ "<u>Ciudad:</u> " +elem.address.city + "<br>" + "<u>Zipcode:</u> " + elem.address.zipcode + "<br><br>");
+  document.write("<div><u>Nombre:</u> <b>"+ elem.name + "</b>"+ "<br>"+"<u>Dirección:</u> "+elem.address.street +", "+ elem.address.suite +"<br>"+ "<u>Ciudad:</u> " +elem.address.city + "<br>" + "<u>Zipcode:</u> " + elem.address.zipcode + "<br><br></div>");
 });
